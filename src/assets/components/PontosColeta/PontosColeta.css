@@ -1,0 +1,26 @@
+.container-pontos-de-coleta {
+    background-color: var(--barra-nav);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 30px 0;
+
+}
+
+.coleta-textos h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: var(--laranja);
+    font-weight: bolder;
+}
+
+.coleta-textos p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+
+}

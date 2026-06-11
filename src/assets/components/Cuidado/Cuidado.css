@@ -1,0 +1,28 @@
+.container-cuidados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--barra-nav);
+    margin: 0px 110px;
+    border-radius: 50px;
+    border: var(--borda-pontilhada);
+    padding: 15px;
+    gap: 100px;
+}
+
+.cuidados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuidados img {
+    width: 120px;
+    height: auto;
+}
+
+.cuidados p {
+    color: var(--marrom);
+    font-size: 30px;
+    font-weight: bold;
+}

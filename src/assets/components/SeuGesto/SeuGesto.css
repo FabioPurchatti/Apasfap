@@ -1,0 +1,20 @@
+.container-gesto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.container-gesto h1 {
+    color: var(--laranja);
+    font-size: 67px;
+    line-height: 1px;
+    font-weight: bold;
+}
+
+.container-gesto p {
+    color: var(--marrom);
+    font-size: 30px;
+    text-align: center;
+}
