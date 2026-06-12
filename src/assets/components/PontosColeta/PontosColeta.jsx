@@ -1,11 +1,11 @@
-import './PontosColeta.css'
+
 
 function PontosDeColeta() {
     return (
-        <section className="container-pontos-de-coleta">
-            <div className="coleta-textos">
-                <h2>Pontos de Coleta</h2>
-                <p>Pode entregar a um voluntário ou leve aos nossos pontos de coleta</p>
+        <section className="flex justify-center items-center mb-8 bg-barra-nav">
+            <div className="flex flex-col justify-center items-center">
+                <h2 className="text-[60px] font-black text-laranja">Pontos de Coleta</h2>
+                <p className="text-[30px] font-semibold">Pode entregar a um voluntário ou leve aos nossos pontos de coleta</p>
             </div>
         </section>
     )

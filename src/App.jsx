@@ -33,7 +33,7 @@ function App() {
         <EntreEmContato />
 
         <PontosDeColeta />
-        <section className="pontoscoleta">
+        <section className="flex justify-center flex-wrap gap-8 bg-barra-nav">
           {coletas.map((coletas) => (
             <Coletas
               key={coletas.id}
