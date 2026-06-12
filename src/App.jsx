@@ -20,7 +20,7 @@ function App() {
         <JunteTampinhas />
         <SeuGesto />
 
-        <section className="flex justify-center items-center gap-25 m-50 my-10 rounded-[100px] outline-dashed bg-barra-nav">
+        <section className="flex justify-center items-center gap-25 m-70 my-10  rounded-[50px] border-2 border-dashed border-marrom bg-barra-nav shadow-[0_15px_30px_rgba(0,0,0,0.2)]">
           {cuidados.map((gestos) => (
             <Cuidado
               key={gestos.id}
