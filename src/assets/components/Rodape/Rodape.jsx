@@ -1,18 +1,18 @@
-import './Rodape.css'
+
 
 function Rodape() {
     return (
         <>
-            <footer className="footer">
-                <div>
-                    <h3>Contatos oficiais</h3>
-                    <img className="rede-social" src="/Instagram.png"></img>
-                    <p>Ong APASFAP oficial ||     @onapasfapoficial </p>
-                    <img className="rede-social" src="/Facebook.png"></img>
-                    <p>Ong APASFAP Paulínea</p>
+            <footer className="flex justify-between items-center m-auto max-w-full  bg-laranja ">
+                <div className="flex items-center justify-center">
+                    <h3 className="ml-13 leading-1 p-1 text-[20px] font-semibold text-barra-nav">Contatos oficiais</h3>
+                    <img className="w-6 ml-13" src="/Instagram.png"></img>
+                    <p className="ml-7 uppercase text-barra-nav">Ong APASFAP oficial ||     @onapasfapoficial </p>
+                    <img className="w-8 ml-13" src="/Facebook.png"></img>
+                    <p className="ml-7 uppercase text-barra-nav">Ong APASFAP Paulínea</p>
                 </div>
                 <div>
-                    <img className="logo-footer" src="/LogoAPASFAP.png"></img>
+                    <img className="w-30" src="/LogoAPASFAP.png"></img>
                 </div>
             </footer>
         </>
