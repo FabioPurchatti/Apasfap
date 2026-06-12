@@ -15,33 +15,34 @@ function App() {
 
   return (
     <>
+      <main className="min-h-screen">
+        <Cabecalho />
+        <JunteTampinhas />
+        <SeuGesto />
 
-      <Cabecalho />
-      <JunteTampinhas />
-      <SeuGesto />
+        <section className="flex justify-center items-center gap-25 m-50 my-10 rounded-[100px] outline-dashed bg-barra-nav">
+          {cuidados.map((gestos) => (
+            <Cuidado
+              key={gestos.id}
+              gestos={gestos}
+            />
+          ))}
+        </section>
 
-      <section className="container-cuidados">
-        {cuidados.map((gestos) => (
-          <Cuidado
-            key={gestos.id}
-            gestos={gestos}
-          />
-        ))}
-      </section>
+        <AceitamosTampinhas />
+        <EntreEmContato />
 
-      <AceitamosTampinhas />
-      <EntreEmContato />
-
-      <PontosDeColeta />
-      <section className="pontoscoleta">
-        {coletas.map((coletas) => (
-          <Coletas
-            key={coletas.id}
-            coletas={coletas}
-          />
-        ))}
-      </section>
-      <Rodape />
+        <PontosDeColeta />
+        <section className="pontoscoleta">
+          {coletas.map((coletas) => (
+            <Coletas
+              key={coletas.id}
+              coletas={coletas}
+            />
+          ))}
+        </section>
+        <Rodape />
+      </main>
     </>
   )
 }
