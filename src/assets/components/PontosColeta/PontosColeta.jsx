@@ -1,6 +1,6 @@
 
 
-function PontosDeColeta() {
+/*function PontosDeColeta() {
     return (
         <section className="flex justify-center items-center mb-8 bg-barra-nav">
             <div className="flex flex-col justify-center items-center">
@@ -11,4 +11,4 @@ function PontosDeColeta() {
     )
 }
 
-export default PontosDeColeta
+export default PontosDeColeta*/

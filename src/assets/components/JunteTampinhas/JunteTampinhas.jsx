@@ -2,22 +2,30 @@
 
 function JunteTampinhas() {
     return (
-        <section className="flex  justify-center items-center relative max-w-full bg-rosa-claro">
-            <aside className="flex items-start justify-end flex-col leading-0.75 w-[40%] m-auto pl-[10%] font-bold">
-                <p className="text-[50px] font-extrabold">Junte <span className="mx-40 bg-laranja border-10 font-extrabold border-laranja rounded-[50px] text-barra-nav">tampinhas,</span></p>
-                <p className="text-[50px] font-extrabold my-20">Salve Vidas!</p>
-                <p className="font-semibold leading-9 text-2xl">
-                    Cada tampinha doada se<br />
-                    transforma em alimento,<br />
-                    medicamentos e amor para os,<br />
-                    animais resgatados pela, <br />
-                    APASFAP.
-                </p>
+        <section >
+            <aside className="relative lg:flex lg:bg-rosa-claro">
+                {/*Textos*/}
+                <div className="absolute inset-0 flex flex-col items-center text-center pt-3 lg:static lg:w-[50%] lg:justify-center lg:items-start lg:text-left lg:px-8">
+                    <h1 className="font-black text-5xl leading-[60px] p-5 lg:text-6xl">
+                        Junte <span className="block lg:inline text-barra-nav lg:bg-laranja lg:rounded-[60px] lg:px-4 ">tampinhas,</span>
+                        <span className="block pt-3 lg:leading-loose lg:items-start lg:text-left">salve vidas!</span>
+                    </h1>
+                    <p className="mt-1 lg:font-semibold lg:text-[25px] lg:ml-[25px]">
+                        Cada tampinha doada se<br />
+                        transforma em alimento,<br />
+                        medicamentos e amor para os,<br />
+                        animais resgatados pela, <br />
+                        APASFAP.
+                    </p>
+
+                </div>
+                <div className="lg:w-[50%]">
+                    {/*Imagem*/}
+                    <img className="w-full h-screen object-cover" src="/Cachorro.jpg" alt="Cachorro"></img>
+                </div>
+
             </aside>
-            <aside className="w-[50%]">
-                <img className="w-full h-150 object-cover" src="/Cachorro.jpg" alt="Cachorro" ></img>
-            </aside>
-        </section >
+        </section>
     )
 }
 

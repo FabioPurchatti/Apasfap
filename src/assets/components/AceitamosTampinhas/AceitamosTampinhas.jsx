@@ -1,6 +1,6 @@
 
 
-function AceitamosTampinhas() {
+/*function AceitamosTampinhas() {
     return (
         <section className=" w-full h-150 bg-laranja">
             <div className="text-6xl ml-10 font-extrabold text-barra-nav" >
@@ -20,4 +20,4 @@ function AceitamosTampinhas() {
     )
 }
 
-export default AceitamosTampinhas
+export default AceitamosTampinhas*/

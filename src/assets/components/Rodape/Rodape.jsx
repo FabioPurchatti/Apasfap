@@ -1,6 +1,6 @@
 
 
-function Rodape() {
+/*function Rodape() {
     return (
         <>
             <footer className="flex justify-between items-center m-auto max-w-full  bg-laranja ">
@@ -19,4 +19,4 @@ function Rodape() {
     )
 }
 
-export default Rodape
+export default Rodape*/

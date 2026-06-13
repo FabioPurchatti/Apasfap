@@ -7,27 +7,17 @@
   --color-amarelo: #FEBD59;
   --color-rosa-claro: #FAF4E8;
   --color-barra-nav: #F9FEFF;
-  --color-black: #000
+  --color-black: #000;
+  --font-poppins: "poppins", sans-serif;
 }
 
-
-
-:root {
-
-
-  --fonte-principal: 'poppins', sans-serif;
-
-  --borda-pontilhada: 5px dashed var(--marrom);
-  --boda-pontilhada-formulario: 3px dashed var(--marrom);
-
-
+@layer base {
+  body {
+    @apply font-poppins;
+    margin: 0;
+  }
 }
 
 * {
-  font-family: 'poppins', sans-serif;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
 }

@@ -1,6 +1,6 @@
 
 
-function SeuGesto() {
+/*function SeuGesto() {
     return (
         <section className="flex justify-center items-center flex-col p-50px text-laranja my-10">
             <h1 className="text-6xl leading-px my-15 font-extrabold">Seu gesto vira cuidado</h1>
@@ -9,4 +9,4 @@ function SeuGesto() {
     )
 }
 
-export default SeuGesto
+export default SeuGesto*/

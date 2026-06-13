@@ -1,23 +1,68 @@
 
-
+import { useState } from "react";
 
 function Cabecalho() {
+    const [menuAberto, setMenuAberto] = useState(false);
+
+
+
     return (
-        <header className="bg-barra-nav relative flex items-center p-1">
-            <div className="flex justify-center items-center w-29.75 h-29.75 rounded-[90px] bg-laranja" >
-                <img
-                    className="w-23.75 h-18.75"
-                    src="/LogoAPASFAP.png"
-                    alt="logo apasfap"></img>
-            </div>
-            <nav className="absolute left-1/2 flex items-center gap-12.5 -translate-x-1/2 ">
-                <a className="no-underline text-links text-[20px] font-bold text-black" href="#conheca" target="_blank" rel="noopener noreferrer">Conheça o projeto</a>
-                <a className="no-underline text-links text-[20px] font-bold  text-black" href="#" target="_blank" rel="noopener noreferrer">Como ajudar?</a>
-                <a className="no-underline text-links text-[20px] font-bold  text-black" href="#" target="_blank" rel="noopener noreferrer">Pontos de Coleta</a>
-                <a className="no-underline text-links text-[20px] font-bold  text-black" href="#" target="_blank" rel="noopener noreferrer">Contato</a>
+        <section className=" bg-rosa-claro lg:bg-barra-nav ">
+            <nav className="relative flex items-center justify-between lg:relative lg:flex lg:items-center">
+
+                {/*Logo*/}
+                <div className="relative w-38 bg-laranja border-10 border-laranja rounded-[80px]  ">
+                    <img className=" w-50 h-30 p-5" src="/LogoAPASFAP.png" alt="logo apasfap"></img>
+                </div>
+
+                <div className="flex justify-center items-center lg:hidden">
+                    <p className="text-laranja text-[28px] font-semibold ">ONG APAFASP</p>
+                </div>
+
+                <button className="lg:hidden"
+                    onClick={() => {
+                        setMenuAberto(!menuAberto);
+
+                    }}
+                >
+                    <img className="w-18" src="/Hamburguer.png" alt="menu"></img>
+
+                </button>
+
+                <div className={`
+                ${menuAberto ? "flex" : "hidden"} 
+                flex-col 
+                absolute 
+                top-full 
+                left-0 
+                w-full 
+                bg-rosa-claro 
+                items-center
+                gap-5 
+                py-5 
+                z-50
+
+                lg:flex 
+                lg:flex-row 
+                lg:static 
+                lg:w-auto
+                lg:bg-transparent 
+                lg:flex-1
+                lg:justify-center
+                lg:gap-30
+                lg:text-2xl
+                lg:font-semibold
+                `}
+                >
+                    <a href="#conheca" target="_blank" rel="noopener noreferrer">Conheça o projeto</a>
+                    <a href="#conheca" target="_blank" rel="noopener noreferrer">Como ajudar?</a>
+                    <a href="#conheca" target="_blank" rel="noopener noreferrer">Pontos de coleta</a>
+                    <a href="#conheca" target="_blank" rel="noopener noreferrer">Contato</a>
+                </div>
             </nav>
-        </header>
+        </section>
     )
 }
 
-export default Cabecalho 
+export default Cabecalho
+

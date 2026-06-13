@@ -1,6 +1,6 @@
 
 
-function Coletas({ coletas }) {
+/*function Coletas({ coletas }) {
     return (
         <section className="w-75 ml-7 my-10 p-5 bg-amarelo rounded-[40px] border-4 border-dashed border-marrom">
             <div className="flex flex-col items-center">
@@ -11,4 +11,4 @@ function Coletas({ coletas }) {
     )
 }
 
-export default Coletas
+export default Coletas*/

@@ -1,6 +1,6 @@
 
 
-function EntreEmContato() {
+/*function EntreEmContato() {
     return (
         <>
             <section className="flex justify-center flex-row p-12 items-center m-full bg-rosa-claro ">
@@ -27,4 +27,4 @@ function EntreEmContato() {
     )
 }
 
-export default EntreEmContato
+export default EntreEmContato*/

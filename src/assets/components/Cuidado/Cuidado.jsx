@@ -1,6 +1,6 @@
 
 
-function Cuidado({ gestos }) {
+/*function Cuidado({ gestos }) {
     return (
 
         <section className="flex items-center flex-col w-30 my-10">
@@ -10,4 +10,4 @@ function Cuidado({ gestos }) {
     )
 }
 
-export default Cuidado
+export default Cuidado*/
