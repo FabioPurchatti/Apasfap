@@ -11,13 +11,11 @@ function Cabecalho() {
             <nav className="relative flex items-center justify-between lg:relative lg:flex lg:items-center">
 
                 {/*Logo*/}
-                <div className="relative w-38 bg-laranja border-10 border-laranja rounded-[80px]  ">
-                    <img className=" w-50 h-30 p-5" src="/LogoAPASFAP.png" alt="logo apasfap"></img>
+                <div className="flex justify-center h-2p-2 bg-laranja rounded-[100px]">
+                    <img className=" w-35  h-30 p-4" src="/LogoAPASFAP.png" alt="logo apasfap"></img>
                 </div>
 
-                <div className="flex justify-center items-center lg:hidden">
-                    <p className="text-laranja text-[28px] font-semibold ">ONG APAFASP</p>
-                </div>
+
 
                 <button className="lg:hidden"
                     onClick={() => {
