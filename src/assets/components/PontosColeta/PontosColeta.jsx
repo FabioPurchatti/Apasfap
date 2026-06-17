@@ -1,4 +1,14 @@
+function PontosColeta() {
+    return (
+        <section>
+            <div>
 
+            </div>
+        </section>
+    )
+}
+
+export default PontosColeta
 
 /*function PontosDeColeta() {
     return (

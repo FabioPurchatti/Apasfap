@@ -1,4 +1,14 @@
+function EntreEmContato() {
+    return (
+        <section>
+            <div>
+                <h3>Entre em contato</h3>
+            </div>
+        </section>
+    )
+}
 
+export default EntreEmContato
 
 /*function EntreEmContato() {
     return (
