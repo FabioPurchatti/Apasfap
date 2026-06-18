@@ -39,7 +39,7 @@ function App() {
       <AceitamosTampinhas />
       <PontosColeta />
 
-      <section /*className="flex justify-center flex-wrap gap-8 bg-barra-nav*/>
+      <section className="bg-rosa-claro lg:flex justify-center lg:items-center lg:p-10"/*className="flex justify-center flex-wrap gap-8 bg-barra-nav*/>
         {coletas.map((coletas) => (
           <Coletas
             key={coletas.id}
