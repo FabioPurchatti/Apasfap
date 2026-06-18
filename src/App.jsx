@@ -24,7 +24,7 @@ function App() {
       <JunteTampinhas />
       <SeuGesto />
 
-      <section className="bg-rosa-claro">
+      <section className=" pb-20 pt-5 bg-rosa-claro ">
         <div className="grid grid-cols-2 gap-8 p-10 mx-auto border-4 border-marrom border-dashed bg-barra-nav
           max-w-sm rounded-4xl lg:max-w-230  lg:bg-white-500 lg:flex lg:justify-center lg:gap-20 lg:p-5  ">
           {cuidados.map((gestos) => (
@@ -33,7 +33,6 @@ function App() {
               gestos={gestos}
             />
           ))}
-
         </div>
       </section>
 
@@ -49,8 +48,6 @@ function App() {
         ))}
       </section>
       <EntreEmContato />
-
-
 
     </main >
     /*<>

@@ -10,7 +10,7 @@ function JunteTampinhas() {
                         Junte <span className="block lg:inline text-barra-nav lg:bg-laranja lg:rounded-[60px] lg:px-4 ">tampinhas,</span>
                         <span className="block pt-3 lg:leading-loose lg:items-start lg:text-left">salve vidas!</span>
                     </h1>
-                    <p className="  lg:font-semibold lg:text-[25px] lg:ml-7">
+                    <p className=" -my-4 lg:font-semibold lg:text-[25px] lg:ml-7">
                         Cada tampinha doada se<br />
                         transforma em alimento,<br />
                         medicamentos e amor para os,<br />

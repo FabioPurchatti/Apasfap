@@ -2,6 +2,14 @@ function EntreEmContato() {
     return (
         <section>
             <div>
+                <form>
+                    <input type="text" name="inNome" placeholder="Nome"></input>
+                    <input type="text" name="inTelefone" placeholder="Telefone" ></input>
+                    <input type="text" name="email" placeholder="E-mail"></input>
+                    <input type="text" name="assunto" placeholder="Assunto"></input>
+                    <textarea name="menssagem" placeholder="Menssagem"></textarea>
+                    <button>Enviar Mensagem</button>
+                </form>
                 <h3>Entre em contato</h3>
             </div>
         </section>

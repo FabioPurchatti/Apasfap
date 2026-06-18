@@ -11,7 +11,7 @@ function Cabecalho() {
             <nav className="relative flex items-center justify-between lg:relative lg:flex lg:items-center">
 
                 {/*Logo*/}
-                <div className="flex justify-center h-2p-2 bg-laranja rounded-[100px]">
+                <div className="flex justify-center h-2p-2">
                     <img className=" w-35  h-30 p-4" src="/LogoAPASFAP.png" alt="logo apasfap"></img>
                 </div>
 
@@ -23,7 +23,7 @@ function Cabecalho() {
 
                     }}
                 >
-                    <img className="w-18" src="/Hamburguer.png" alt="menu"></img>
+                    <img className="w-13 mx-10" src="/Hamburguer.png" alt="menu"></img>
 
                 </button>
 
