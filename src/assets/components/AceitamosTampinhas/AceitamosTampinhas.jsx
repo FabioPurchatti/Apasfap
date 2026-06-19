@@ -1,11 +1,66 @@
+
+import ImagemGato from "../../../../public/Gatopng.png"
+import Patas from "../../../../public/Patas.png"
+
 function AceitamosTampinhas() {
     return (
-        <section className="max-w-full p-5 bg-laranja ">
-            <div className="mb-5 text-3xl font-black text-barra-nav  lg:text-6xl lg:font-extrabold lg:p-5 lg:mx-20 ">
-                <h2>Aceitamos tampinhas de:</h2>
+        <section className="bg-laranja py-10">
+            {/* Título */}
+            <div className="flex justify-center mt-8 py-5">
+                <h2 className="text-3xl font-black text-barra-nav z-40  lg:text-6xl px-3">
+                    Aceitamos tampinhas de:
+                </h2>
             </div>
-            <div className=" flex justify-items-start mx-14  text-1xl leading-7 font-normal text-marrom  bg-barra-nav border-2 border-marrom  border-dashed rounded-4xl sm:mx-60 lg:mx-120 lg:flex lg:justify-items-start  lg:leading-13 lg:text-4xl lg:p-13 lg:border-3">
-                <ul className="p-7" >
+
+            {/* ESTE CONTAINER DIZ QUE A CAIXA E O GATO FICAM LADO A LADO */}
+            <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-center lg:ml-17">
+
+                {/* Caixa Branca (Estrutura isolada apenas para a lista) */}
+                <div className="relative flex justify-center items-center bg-barra-nav border-2 border-dashed border-marrom rounded-4xl p-7 w-80 lg:w-[500px]">
+                    <ul className="text-marrom text-xl leading-relaxed lg:leading-loose">
+                        <li>Garrafas PET</li>
+                        <li>Produtos de limpeza</li>
+                        <li>Pacotes de alimento</li>
+                        <li>Cosméticos e higiene</li>
+                        <li>Caixinhas longa vida</li>
+                    </ul>
+                </div>
+
+                {/* Caixa do Gato (Ao lado da caixa branca no desktop com tamanho médio) */}
+                <div className="hidden lg:block w-96 h-96 overflow-hidden">
+                    <img
+                        className="w-full h-full object-contain object-center -ml-50 -my-40 scale-200"
+                        src={ImagemGato}
+                        alt="Foto de um gato"
+                    />
+                </div>
+                <div className="lg:hidden ">
+                    <img className="w-full h-full object-contain scale-130 -my-120" src={Patas} alt="Imagem Patas"></img>
+                </div>
+
+            </div>
+        </section>
+    )
+}
+
+export default AceitamosTampinhas
+
+
+
+
+
+
+
+/*import ImagemGato from "../../../../public/Gatopng.png"
+
+function AceitamosTampinhas() {
+    return (
+        <section className=" bg-laranja py-10  ">
+            <div className="flex justify-center mt8">
+                <h2 className="text-3xl font-black text-barra-nav lg:text-6xl">Aceitamos tampinhas de:</h2>
+            </div>
+            <div className=" flex flex-center items-center bg-barra-nav border-2 border-dashed border-marrom rounded-4xl p-7 mt-8 w-80 lg:justify-center lg:items-center lg:gap-12 lg:flex-row">
+                <ul className="text-marrom text-xl leading-relaxed lg:leading-loose" >
                     <li>Garrafas PET</li>
                     <li>Produtos de limpeza</li>
                     <li>Pacotes de alimento</li>
@@ -13,12 +68,12 @@ function AceitamosTampinhas() {
                     <li>Caixinhas longa vida</li>
                 </ul>
             </div>
-            <div className="absolute -bottom-338 sm:w-90 sm:left-64 sm:top-566 lg:w-300 lg:top-365 lg:left-81">
-                <img className=" sm:max-w-full  lg:-top-210 lg:mr-100 lg:h-auto" src="/Gatopng.png" alt="Imagem gato"></img>
+            <div className="hidden lg:block  w-100  overflow-hidden">
+                <img className="w-full h-full object-contain object-center" src={ImagemGato}></img>
             </div>
         </section>
     )
 }
 
-export default AceitamosTampinhas
+export default AceitamosTampinhas*/
 

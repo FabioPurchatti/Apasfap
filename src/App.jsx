@@ -39,13 +39,15 @@ function App() {
       <AceitamosTampinhas />
       <PontosColeta />
 
-      <section className="bg-rosa-claro lg:flex justify-center lg:items-center lg:p-10"/*className="flex justify-center flex-wrap gap-8 bg-barra-nav*/>
-        {coletas.map((coletas) => (
-          <Coletas
-            key={coletas.id}
-            coletas={coletas}
-          />
-        ))}
+      <section className="bg-rosa-claro p-8 lg:flex justify-center lg:items-center lg:p-10">
+        <div className=" max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center">
+          {coletas.map((coleta) => (
+            <Coletas
+              key={coleta.id}
+              coletas={coleta}
+            />
+          ))}
+        </div>
       </section>
       <EntreEmContato />
 
@@ -54,7 +56,15 @@ function App() {
       <main className="min-h-screen">
         
         
-       
+      
+      <section className="bg-rosa-claro p-8 lg:flex justify-center lg:items-center lg:p-10"/*className="flex justify-center flex-wrap gap-8 bg-barra-nav>
+        {coletas.map((coletas) => (
+          <Coletas
+            key={coletas.id}
+            coletas={coletas}
+          />
+        ))}
+      </section> 
 
 
   
