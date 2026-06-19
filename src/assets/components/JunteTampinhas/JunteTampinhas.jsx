@@ -5,7 +5,7 @@ function JunteTampinhas() {
         <section >
             <aside className="relative lg:flex lg:bg-rosa-claro">
                 {/*Textos*/}
-                <div className="absolute inset-0 flex flex-col items-center text-center lg:static lg:w-[50%] lg:justify-center lg:items-start lg:text-left lg:px-8">
+                <div className="absolute inset-0 flex flex-col items-center text-center my-15 lg:static lg:w-[50%] lg:justify-center lg:items-start lg:text-left lg:px-8">
                     <h1 className="font-black text-5xl leading-13 p-5 lg:text-6xl">
                         Junte <span className="block lg:inline text-barra-nav lg:bg-laranja lg:rounded-[60px] lg:px-4 ">tampinhas,</span>
                         <span className="block pt-3 lg:leading-loose lg:items-start lg:text-left">salve vidas!</span>
