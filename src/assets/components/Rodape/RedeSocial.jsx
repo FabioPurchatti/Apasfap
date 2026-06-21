@@ -9,7 +9,7 @@ function RedeSocial({ imagem, alt, texto }) {
             />
             <h4 className="text-barra-nav font-bold">
                 {texto}
-            </h4>k
+            </h4>
         </div>
     )
 }
