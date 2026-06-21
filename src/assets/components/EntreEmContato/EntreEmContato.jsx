@@ -1,4 +1,5 @@
 function EntreEmContato() {
+
     return (
         <section className=" bg-barra-nav w-full py-12 flex flex-col lg:flex-row lg:justify-center lg:gap-16 lg:items-center max-w-7xl mx-auto">
 
@@ -13,17 +14,17 @@ function EntreEmContato() {
 
 
             <div className="rounded-3xl p-6 bg-amarelo w-full max-w-md lg:w-1/2 shadow-sm">
-                <form className="flex flex-col gap-4 w-full">
+                <form className="flex flex-col gap-4 w-full" >
                     <input
                         className="w-full p-3 bg-barra-nav border-2 border-dashed border-white rounded-lg uppercase font-bold text-black placeholder-gray-500"
                         type="text"
-                        name="inNome"
+                        name="nome"
                         placeholder="Nome"
                     />
                     <input
                         className="w-full p-3 bg-barra-nav border-2 border-dashed border-white rounded-lg uppercase font-bold text-black placeholder-gray-500"
                         type="text"
-                        name="inTelefone"
+                        name="telefone"
                         placeholder="Telefone"
                     />
                     <input
@@ -45,7 +46,7 @@ function EntreEmContato() {
                     />
 
 
-                    <button className="w-fit mx-auto mt-2 cursor-pointer py-3 px-6 uppercase text-barra-nav font-bold border-4 border-dashed rounded-xl bg-marrom border-marrom-dark hover:scale-105 transition-transform">
+                    <button type="submit" className="w-fit mx-auto mt-2 cursor-pointer py-3 px-6 uppercase text-barra-nav font-bold border-4 border-dashed rounded-xl bg-marrom border-marrom-dark hover:scale-105 transition-transform">
                         Enviar Mensagem
                     </button>
                 </form>

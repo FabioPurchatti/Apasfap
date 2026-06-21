@@ -1,7 +1,3 @@
-/*
-
-import Rodape from "./assets/components/Rodape/Rodape.jsx"
-*/
 
 import Coletas from "./assets/components/Coletas/Coletas.jsx"
 import PontosColeta from "./assets/components/PontosColeta/PontosColeta.jsx"
@@ -13,6 +9,7 @@ import SeuGesto from "./assets/components/SeuGesto/SeuGesto.jsx"
 import JunteTampinhas from "./assets/components/JunteTampinhas/JunteTampinhas.jsx"
 import Cabecalho from "./assets/components/Cabecalho/Cabecalho.jsx"
 import AceitamosTampinhas from "./assets/components/AceitamosTampinhas/AceitamosTampinhas.jsx"
+import Rodape from "./assets/components/Rodape/Rodape.jsx"
 import './App.css'
 
 function App() {
@@ -50,22 +47,9 @@ function App() {
         </div>
       </section>
       <EntreEmContato />
+      <Rodape />
 
     </main >
-    /*<>
-      <main className="min-h-screen">
-        
-        
-      
-
-
-
-  
-
-
-        <Rodape />
-      </main>
-    </>*/
   )
 }
 export default App

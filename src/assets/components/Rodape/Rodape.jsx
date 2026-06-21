@@ -1,22 +1,42 @@
+import instagram from "../../../../public/Instagram.png"
+import Facebook from "../../../../public/Facebook.png"
+import Logo from "../../../../public/LogoApasfap.png"
+import RedeSocial from './RedeSocial'
 
-
-/*function Rodape() {
+function Rodape() {
     return (
-        <>
-            <footer className="flex justify-between items-center m-auto max-w-full  bg-laranja ">
-                <div className="flex items-center justify-center">
-                    <h3 className="ml-13 leading-1 p-1 text-[20px] font-semibold text-barra-nav">Contatos oficiais</h3>
-                    <img className="w-6 ml-13" src="/Instagram.png"></img>
-                    <p className="ml-7 uppercase text-barra-nav">Ong APASFAP oficial ||     @onapasfapoficial </p>
-                    <img className="w-8 ml-13" src="/Facebook.png"></img>
-                    <p className="ml-7 uppercase text-barra-nav">Ong APASFAP Paulínea</p>
-                </div>
+        <footer className="bg-laranja px-6 py-8">
+            <div className="flex justify-between items-center">
+
+                {/* Lado esquerdo */}
                 <div>
-                    <img className="w-30" src="/LogoAPASFAP.png"></img>
+                    <h3 className="text-barra-nav text-4xl font-black mb-8">
+                        Contatos oficiais
+                    </h3>
+                    <RedeSocial
+                        imagem={instagram}
+                        alt="Imagem instagram"
+                        texto="@onapasfapoficial"
+                    />
+                    {/* Facebook */}
+                    <RedeSocial
+                        imagem={Facebook}
+                        alt="Imagem Facebook"
+                        texto="ONG Apasfap Paulínia"
+                    />
                 </div>
-            </footer>
-        </>
-    )
+                {/* Logo à direita */}
+                <div>
+                    <img
+                        className="w-44"
+                        src={Logo}
+                        alt="Logo APASFAP"
+                    />
+                </div>
+            </div>
+        </footer >
+    );
 }
 
-export default Rodape*/
+export default Rodape;
+
